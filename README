@@ -1,0 +1,8 @@
+# BalanceFunction
+Some simple code for balance function analysis in ALICE
+
+To run main analysis code, edit CreateAlienHandler.C as needed, then do aliroot runGrid.C to test/submit/merge
+
+Calculate*.C macros analyze the output histogram file to produce text files
+
+Draw*.C macros read in the text files and make plots (external data files not provided in repo)
